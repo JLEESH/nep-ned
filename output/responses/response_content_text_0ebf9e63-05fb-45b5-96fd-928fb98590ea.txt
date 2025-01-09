@@ -1,0 +1,1 @@
+{"original":"This is a sample sentence of nep Dutch. It is very fun to do something like this.","hybrid":"Dis is a sample zentence of nep Nederlants. It is very fun to do someting like dis.","translation":"Dit is een voorbeeldzin van nep Nederlands. Het is erg leuk om zoiets te doen."}
