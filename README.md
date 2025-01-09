@@ -12,9 +12,28 @@ e.g. ``echo "OPEN_AI_KEY=<your-key-here>" > .env``
 
 ``python3.12 nepned.py -gt "We have a serious problem. We are not using nearly enough nep Dutch."``
 
+```
+English: We have a serious problem. We are not using nearly enough nep Dutch.
+
+Neperlands: We hebbe een serieus probleem. We üsen niet naarlig genoeg nep nederlands.
+
+Dutch: We hebben een serieus probleem. We gebruiken niet bijna genoeg nep Nederlands.
+```
+
 ### Voor een willekeurige voorbeeldzin: 
 
 ``python3.12 nepned.py -t "(Instead of translating a given sentence give a sample sentence instead)" -v 5``
+
+```
+{
+    "original": "The garden is full of beautiful flowers and buzzing bees.",
+    "hybrid": "De garden is vol van mooie bloemen en buzzing bijen.",
+    "translation": "De tuin is vol met mooie bloemen en zoemende bijen."
+}
+```
+
+(Er worden zowel tekst- als JSON-uitvoer gegenereerd en opgeslagen.)
+
 
 ## Text
 ```
